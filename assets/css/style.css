@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #a800a8;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 20px;
+    margin-top: 5px
+}
+
+.cart {
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+  
+  .cart-total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .cart h2 {
+    color: #000;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+  
+  .cart p {
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+.product_title {
+    font-weight: bold;
+}
+
+  .cart-items li {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .cart .Checkout {
+    background-color: #a800a8;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .remove-button {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 5px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #fff;
+  }
+  
+  .add-to-cart-btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 80px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+  }
+  
+  .add-to-cart-btn {
+    color: #a800a8;
+    background: #fff;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #ff8aff;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .Checkout {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+    margin: 10px;
+  }
+  
+  .Checkout {
+    color: #fff;
+    background: #ff8aff;
+  }
+  
+  .Checkout:hover {
+    background: #a800a8;
+    transition: background 0.3s ease-in-out;
+  }
+
+ /* Styles for the overlay and checkout form */
+ .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkout-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .checkout-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form form {
+    margin-top: 20px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .checkout-form input[type="text"],
+  .checkout-form input[type="email"],
+  .checkout-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form .payment-options {
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form .payment-options input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .checkout-form .button-group {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .checkout-form button {
+    background-color: #ff8aff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-form .cancel {
+    background-color: #ccc;
+  }
+
+/*Home Page*/
+.menu{
+    width: 700px;
+    float: right;
+    height: 60px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #ff8aff;
+}
+
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+.chat {
+    width: 330px;
+    float: left;
+    margin-left: 250px;
+}
+
+
+.content{
+    width: 1150px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-right: 10px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    margin-top: 7%;
+    float: right;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+.content span{
+    color: #ff8aff;
+    font-size: 65px
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 50px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("product.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h3 {
+    color: #000;
+    font-size: 16px;
+}
+
+#banner h3 {
+    color: #000;
+    font-size: 30px;
+    padding: 10px 0;
+    font-family: 'Arial Narrow Bold';
+}
+
+#banner h3 span{
+    color: #a800a8;
+}
+
+#banner h2 {
+    color: #000;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#product1 {
+    text-align: center;
+    background-image: url(footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product1 h1 {
+    font-size: 50px;
+    color: #a800a8;
+    position: center;
+    font-family:'Georgia';
+}
+
+#product1 p {
+    font-size: 35px;
+    position: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.02);
+    margin: 15px 0;
+}
+
+#product1 .pro:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+}
+
+#product1 .pro img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: #a800a8;
+    font-size: 30px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #000;
+    font-size: 25px;
+}
+
+#product1 .pro .des h4 {
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #a800a8;
+}
+
+#product1 .pro .cart {
+    width: 320px;
+    height: 25px;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 500;
+    color: #a800a8;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(footer.jpg);
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 25px;
+    margin: 0;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 0;
+}
+
+footer .follow {
+    margin-top: 10px;
+}
+
+footer .follow .icon {
+    color: #a800a8;
+    padding-right: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.section__title {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+.section__subtitle span {
+    color: #a800a8;
+  }
+
+.about_details {
+    background-color: #fff;
+}
+
+.about_details h2 {
+    color: #a800a8;
+    text-align: center;
+}
+
+.about_details p {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+/*=============== CONTACT ===============*/
+.contact-details h3 {
+    color: #000;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+  
+@media screen and (min-width: 576px) {
+    .contact__cotainer {
+      grid-template-columns: 360px;
+      justify-content: center;
+    }
+  }
